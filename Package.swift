@@ -16,7 +16,7 @@ extension Target.Dependency {
 }
 
 let package = Package(
-    name: "swift-basic-auth",
+    name: "swift-web-authentication",
     platforms: [
         .macOS(.v14),
         .iOS(.v17)
