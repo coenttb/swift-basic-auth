@@ -11,6 +11,8 @@ import URLRouting
 extension BasicAuth {
     public struct Router: ParserPrinter {
         
+        public init(){}
+        
         public var body: some URLRouting.Router<BasicAuth> {
             Parse(.memberwise(BasicAuth.init)) {
                 Headers {
